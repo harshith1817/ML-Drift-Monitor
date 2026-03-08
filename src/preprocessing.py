@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import pandas as pd
 from sklearn.preprocessing import OneHotEncoder
 def dynamic_preprocessor(path, target_col):
@@ -66,16 +60,3 @@ def dynamic_preprocessor(path, target_col):
     inputs = pd.concat([inputs, encoded_all], axis=1)
     print("Preprocesing is done!")
     return inputs, target
-
-
-# In[2]:
-
-
-# dynamic_preprocessor("data/teleco_customer_churn_train.csv", "Churn")
-
-
-# In[ ]:
-
-
-
-

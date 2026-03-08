@@ -1,0 +1,242 @@
+{
+    "gender": {
+        "mean": 0.5046928327645052,
+        "std": 0.5000135308251177,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "SeniorCitizen": {
+        "mean": 0.16240045506257111,
+        "std": 0.3688439967571208,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "Partner": {
+        "mean": 0.5174914675767918,
+        "std": 0.4997294886907936,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "Dependents": {
+        "mean": 0.2984926052332196,
+        "std": 0.4576292729958296,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "tenure": {
+        "mean": 32.421786120591584,
+        "std": 24.545259709263192,
+        "min": 1.0,
+        "max": 72.0
+    },
+    "PhoneService": {
+        "mean": 0.9032992036405005,
+        "std": 0.29557093202909834,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "PaperlessBilling": {
+        "mean": 0.4072810011376564,
+        "std": 0.4913629222564994,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "MonthlyCharges": {
+        "mean": 64.79820819112628,
+        "std": 30.08597388404983,
+        "min": 18.25,
+        "max": 118.75
+    },
+    "TotalCharges": {
+        "mean": 2283.300440841866,
+        "std": 2266.7713618831453,
+        "min": 18.8,
+        "max": 8684.8
+    },
+    "MultipleLines_No": {
+        "mean": 0.48137087599544937,
+        "std": 0.49968836608375405,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "MultipleLines_No phone service": {
+        "mean": 0.09670079635949944,
+        "std": 0.29557093202909834,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "MultipleLines_Yes": {
+        "mean": 0.42192832764505117,
+        "std": 0.4939023222194507,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "InternetService_DSL": {
+        "mean": 0.3435722411831627,
+        "std": 0.47493413526560724,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "InternetService_Fiber optic": {
+        "mean": 0.4402730375426621,
+        "std": 0.49645517361248154,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "InternetService_No": {
+        "mean": 0.2161547212741752,
+        "std": 0.41165028310107327,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "OnlineSecurity_No": {
+        "mean": 0.49729806598407283,
+        "std": 0.5000282545357074,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "OnlineSecurity_No internet service": {
+        "mean": 0.2161547212741752,
+        "std": 0.41165028310107327,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "OnlineSecurity_Yes": {
+        "mean": 0.286547212741752,
+        "std": 0.45218025637906273,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "OnlineBackup_No": {
+        "mean": 0.43899317406143346,
+        "std": 0.49629950096944403,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "OnlineBackup_No internet service": {
+        "mean": 0.2161547212741752,
+        "std": 0.41165028310107327,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "OnlineBackup_Yes": {
+        "mean": 0.34485210466439137,
+        "std": 0.4753538301712321,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "DeviceProtection_No": {
+        "mean": 0.4399886234357224,
+        "std": 0.4964208691123317,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "DeviceProtection_No internet service": {
+        "mean": 0.2161547212741752,
+        "std": 0.41165028310107327,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "DeviceProtection_Yes": {
+        "mean": 0.3438566552901024,
+        "std": 0.47502773089125655,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "TechSupport_No": {
+        "mean": 0.4937428896473265,
+        "std": 0.4999963998084769,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "TechSupport_No internet service": {
+        "mean": 0.2161547212741752,
+        "std": 0.41165028310107327,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "TechSupport_Yes": {
+        "mean": 0.2901023890784983,
+        "std": 0.4538416944717687,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "StreamingTV_No": {
+        "mean": 0.39945961319681456,
+        "std": 0.48982216135590667,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "StreamingTV_No internet service": {
+        "mean": 0.2161547212741752,
+        "std": 0.41165028310107327,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "StreamingTV_Yes": {
+        "mean": 0.3843856655290102,
+        "std": 0.4864843074333458,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "StreamingMovies_No": {
+        "mean": 0.39547781569965873,
+        "std": 0.4889878485115109,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "StreamingMovies_No internet service": {
+        "mean": 0.2161547212741752,
+        "std": 0.41165028310107327,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "StreamingMovies_Yes": {
+        "mean": 0.3883674630261661,
+        "std": 0.48741354217679833,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "Contract_Month-to-month": {
+        "mean": 0.551052332195677,
+        "std": 0.4974222004539383,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "Contract_One year": {
+        "mean": 0.20932878270762229,
+        "std": 0.4068584317786297,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "Contract_Two year": {
+        "mean": 0.2396188850967008,
+        "std": 0.42688123529878186,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "PaymentMethod_Bank transfer (automatic)": {
+        "mean": 0.21928327645051193,
+        "std": 0.4137903698282813,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "PaymentMethod_Credit card (automatic)": {
+        "mean": 0.21629692832764505,
+        "std": 0.4117483168573732,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "PaymentMethod_Electronic check": {
+        "mean": 0.3363196814562002,
+        "std": 0.4724833327167054,
+        "min": 0.0,
+        "max": 1.0
+    },
+    "PaymentMethod_Mailed check": {
+        "mean": 0.22810011376564276,
+        "std": 0.4196373361452506,
+        "min": 0.0,
+        "max": 1.0
+    }
+}
