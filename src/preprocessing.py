@@ -10,7 +10,6 @@ def dynamic_preprocessor(path, target_col):
         if churn_df[col].dtype == "object":
             converted = pd.to_numeric(churn_df[col], errors="coerce")
     
-            # convert if most values are numeric
             if converted.notna().sum() / len(churn_df) > 0.8:
                 churn_df[col] = converted
         

@@ -1,0 +1,1072 @@
+{
+    "age": {
+        "baseline_mean": 38.52691185503686,
+        "production_mean": 41.57040631430239,
+        "ks_test": {
+            "ks_statistic": 0.08074076349006482,
+            "p_value": 0.0,
+            "drift_detected": true
+        },
+        "psi": 0.08205101798333367
+    },
+    "fnlwgt": {
+        "baseline_mean": 189828.72454699018,
+        "production_mean": 189663.41522066275,
+        "ks_test": {
+            "ks_statistic": 0.008476398145020159,
+            "p_value": 0.19151222070103546,
+            "drift_detected": false
+        },
+        "psi": 0.0008708604802451541
+    },
+    "education.num": {
+        "baseline_mean": 10.088336916461916,
+        "production_mean": 10.0806793403151,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "sex": {
+        "baseline_mean": 0.3308507371007371,
+        "production_mean": 0.33079450876815825,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "capital.gain": {
+        "baseline_mean": 1106.465601965602,
+        "production_mean": 1225.0285617763582,
+        "ks_test": {
+            "ks_statistic": 0.13826356684377017,
+            "p_value": 0.0,
+            "drift_detected": true
+        },
+        "psi": 6.378589849389535e-07
+    },
+    "capital.loss": {
+        "baseline_mean": 88.5505605036855,
+        "production_mean": 97.1739504314978,
+        "ks_test": {
+            "ks_statistic": 0.0952980559565123,
+            "p_value": 0.0,
+            "drift_detected": true
+        },
+        "psi": 0.0
+    },
+    "hours.per.week": {
+        "baseline_mean": 40.51896498771499,
+        "production_mean": 41.4272288934615,
+        "ks_test": {
+            "ks_statistic": 0.263167593132889,
+            "p_value": 0.0,
+            "drift_detected": true
+        },
+        "psi": 0.19738586515099568
+    },
+    "workclass_?": {
+        "baseline_mean": 0.05512899262899263,
+        "production_mean": 0.05638647461687295,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "workclass_Federal-gov": {
+        "baseline_mean": 0.029407248157248156,
+        "production_mean": 0.029483123982678664,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "workclass_Local-gov": {
+        "baseline_mean": 0.0644963144963145,
+        "production_mean": 0.06427935259973588,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "workclass_Never-worked": {
+        "baseline_mean": 0.00023034398034398035,
+        "production_mean": 0.00021498111237369858,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "workclass_Private": {
+        "baseline_mean": 0.6969057125307125,
+        "production_mean": 0.6970301894904948,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "workclass_Self-emp-inc": {
+        "baseline_mean": 0.03458998771498772,
+        "production_mean": 0.034274131629863945,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "workclass_Self-emp-not-inc": {
+        "baseline_mean": 0.07800982800982802,
+        "production_mean": 0.0780381437916526,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "workclass_State-gov": {
+        "baseline_mean": 0.04077088452088452,
+        "production_mean": 0.039863640551580114,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "workclass_Without-pay": {
+        "baseline_mean": 0.0004606879606879607,
+        "production_mean": 0.00042996222474739717,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "education_10th": {
+        "baseline_mean": 0.029176904176904175,
+        "production_mean": 0.02865391112066583,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "education_11th": {
+        "baseline_mean": 0.03551136363636364,
+        "production_mean": 0.03608611529129941,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "education_12th": {
+        "baseline_mean": 0.01359029484029484,
+        "production_mean": 0.013298117379687356,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "education_1st-4th": {
+        "baseline_mean": 0.004952395577395578,
+        "production_mean": 0.005159546696968767,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "education_5th-6th": {
+        "baseline_mean": 0.010557432432432432,
+        "production_mean": 0.010226958631491662,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "education_7th-8th": {
+        "baseline_mean": 0.01984797297297297,
+        "production_mean": 0.019839685513344186,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "education_9th": {
+        "baseline_mean": 0.01574017199017199,
+        "production_mean": 0.01578575596572587,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "education_Assoc-acdm": {
+        "baseline_mean": 0.032555282555282554,
+        "production_mean": 0.032769263843248055,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "education_Assoc-voc": {
+        "baseline_mean": 0.04311271498771499,
+        "production_mean": 0.042443413900064494,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "education_Bachelors": {
+        "baseline_mean": 0.1665003071253071,
+        "production_mean": 0.16446055096587942,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "education_Doctorate": {
+        "baseline_mean": 0.012745700245700245,
+        "production_mean": 0.012683885630048217,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "education_HS-grad": {
+        "baseline_mean": 0.32140663390663393,
+        "production_mean": 0.32250238014802984,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "education_Masters": {
+        "baseline_mean": 0.05297911547911548,
+        "production_mean": 0.05291606523141181,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "education_Preschool": {
+        "baseline_mean": 0.0016507985257985258,
+        "production_mean": 0.001566290961579804,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "education_Prof-school": {
+        "baseline_mean": 0.018043611793611792,
+        "production_mean": 0.0176898743896072,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "education_Some-college": {
+        "baseline_mean": 0.22162929975429976,
+        "production_mean": 0.22391818433094807,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "marital.status_Divorced": {
+        "baseline_mean": 0.13751535626535627,
+        "production_mean": 0.1364515831823347,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "marital.status_Married-AF-spouse": {
+        "baseline_mean": 0.000691031941031941,
+        "production_mean": 0.0007063665120850096,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "marital.status_Married-civ-spouse": {
+        "baseline_mean": 0.45980497542997545,
+        "production_mean": 0.4599367341297872,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "marital.status_Married-spouse-absent": {
+        "baseline_mean": 0.013513513513513514,
+        "production_mean": 0.012837443567458001,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "marital.status_Never-married": {
+        "baseline_mean": 0.3263974201474201,
+        "production_mean": 0.328091889069746,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "marital.status_Separated": {
+        "baseline_mean": 0.03174907862407862,
+        "production_mean": 0.03147937716900587,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "marital.status_Widowed": {
+        "baseline_mean": 0.030328624078624078,
+        "production_mean": 0.030496606369583245,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "occupation_?": {
+        "baseline_mean": 0.05535933660933661,
+        "production_mean": 0.056601455729246644,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "occupation_Adm-clerical": {
+        "baseline_mean": 0.117129914004914,
+        "production_mean": 0.11578268480697768,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "occupation_Armed-Forces": {
+        "baseline_mean": 0.00026873464373464373,
+        "production_mean": 0.0002764042873376125,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "occupation_Craft-repair": {
+        "baseline_mean": 0.12684275184275184,
+        "production_mean": 0.1258867970885415,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "occupation_Exec-managerial": {
+        "baseline_mean": 0.12484643734643734,
+        "production_mean": 0.12487331470163693,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "occupation_Farming-fishing": {
+        "baseline_mean": 0.030136670761670762,
+        "production_mean": 0.0305273179570652,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "occupation_Handlers-cleaners": {
+        "baseline_mean": 0.04176904176904177,
+        "production_mean": 0.04207487485028101,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "occupation_Machine-op-inspct": {
+        "baseline_mean": 0.06142506142506143,
+        "production_mean": 0.0614845981388778,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "occupation_Other-service": {
+        "baseline_mean": 0.10039158476658476,
+        "production_mean": 0.10119468075304812,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "occupation_Priv-house-serv": {
+        "baseline_mean": 0.004606879606879607,
+        "production_mean": 0.004576026534811584,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "occupation_Prof-specialty": {
+        "baseline_mean": 0.12807125307125308,
+        "production_mean": 0.12714597217530174,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "occupation_Protective-serv": {
+        "baseline_mean": 0.01984797297297297,
+        "production_mean": 0.019931820275790057,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "occupation_Sales": {
+        "baseline_mean": 0.11156326781326781,
+        "production_mean": 0.11209729430914284,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "occupation_Tech-support": {
+        "baseline_mean": 0.02898495085995086,
+        "production_mean": 0.02850035318325604,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "occupation_Transport-moving": {
+        "baseline_mean": 0.048756142506142505,
+        "production_mean": 0.04904640520868524,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "relationship_Husband": {
+        "baseline_mean": 0.40540540540540543,
+        "production_mean": 0.40517797364945796,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "relationship_Not-in-family": {
+        "baseline_mean": 0.25426136363636365,
+        "production_mean": 0.2550597340376524,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "relationship_Other-relative": {
+        "baseline_mean": 0.03055896805896806,
+        "production_mean": 0.03012806731979976,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "relationship_Own-child": {
+        "baseline_mean": 0.1555205773955774,
+        "production_mean": 0.1556463253585578,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "relationship_Unmarried": {
+        "baseline_mean": 0.10634213759213759,
+        "production_mean": 0.10583213046282362,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "relationship_Wife": {
+        "baseline_mean": 0.04791154791154791,
+        "production_mean": 0.04815576917170849,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "race_Amer-Indian-Eskimo": {
+        "baseline_mean": 0.009444103194103194,
+        "production_mean": 0.009551303706888609,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "race_Asian-Pac-Islander": {
+        "baseline_mean": 0.03217137592137592,
+        "production_mean": 0.03190933939375326,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "race_Black": {
+        "baseline_mean": 0.09593826781326781,
+        "production_mean": 0.0959429992936335,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "race_Other": {
+        "baseline_mean": 0.008330773955773956,
+        "production_mean": 0.008322840207610331,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "race_White": {
+        "baseline_mean": 0.8541154791154791,
+        "production_mean": 0.8542735173981143,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_?": {
+        "baseline_mean": 0.018197174447174447,
+        "production_mean": 0.0179048555019809,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Cambodia": {
+        "baseline_mean": 0.0005758599508599509,
+        "production_mean": 0.0005835201621571819,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Canada": {
+        "baseline_mean": 0.003723894348894349,
+        "production_mean": 0.00371610208531679,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_China": {
+        "baseline_mean": 0.0024186117936117937,
+        "production_mean": 0.002303369061146771,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Columbia": {
+        "baseline_mean": 0.0020347051597051596,
+        "production_mean": 0.0018119836614354597,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Cuba": {
+        "baseline_mean": 0.0026873464373464375,
+        "production_mean": 0.0029176008107859096,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Dominican-Republic": {
+        "baseline_mean": 0.00214987714987715,
+        "production_mean": 0.002149811123736986,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Ecuador": {
+        "baseline_mean": 0.0007294226044226044,
+        "production_mean": 0.0008599244494947943,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_El-Salvador": {
+        "baseline_mean": 0.003531941031941032,
+        "production_mean": 0.003255428273087436,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_England": {
+        "baseline_mean": 0.002840909090909091,
+        "production_mean": 0.002764042873376125,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_France": {
+        "baseline_mean": 0.0009981572481572482,
+        "production_mean": 0.0008906360369767513,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Germany": {
+        "baseline_mean": 0.00441492628992629,
+        "production_mean": 0.004207487485028101,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Greece": {
+        "baseline_mean": 0.001074938574938575,
+        "production_mean": 0.0008906360369767513,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Guatemala": {
+        "baseline_mean": 0.0019963144963144963,
+        "production_mean": 0.001965541598845244,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Haiti": {
+        "baseline_mean": 0.001382063882063882,
+        "production_mean": 0.0013513098492061054,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Holand-Netherlands": {
+        "baseline_mean": 3.839066339066339e-05,
+        "production_mean": 3.071158748195694e-05,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Honduras": {
+        "baseline_mean": 0.00026873464373464373,
+        "production_mean": 0.00039925063726544026,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Hong": {
+        "baseline_mean": 0.0006526412776412776,
+        "production_mean": 0.0006142317496391389,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Hungary": {
+        "baseline_mean": 0.0004222972972972973,
+        "production_mean": 0.00039925063726544026,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_India": {
+        "baseline_mean": 0.003148034398034398,
+        "production_mean": 0.0030711587481956942,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Iran": {
+        "baseline_mean": 0.0013052825552825552,
+        "production_mean": 0.0013205982617241485,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Ireland": {
+        "baseline_mean": 0.0005758599508599509,
+        "production_mean": 0.0007370780995669666,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Italy": {
+        "baseline_mean": 0.0023034398034398034,
+        "production_mean": 0.0022419458861828567,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Jamaica": {
+        "baseline_mean": 0.0023802211302211304,
+        "production_mean": 0.0024876385860385123,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Japan": {
+        "baseline_mean": 0.0016891891891891893,
+        "production_mean": 0.0019041184238813304,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Laos": {
+        "baseline_mean": 0.0004990786240786241,
+        "production_mean": 0.000552808574675225,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Mexico": {
+        "baseline_mean": 0.019656019656019656,
+        "production_mean": 0.019747550750898315,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Nicaragua": {
+        "baseline_mean": 0.0011133292383292384,
+        "production_mean": 0.001044193974386536,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Outlying-US(Guam-USVI-etc)": {
+        "baseline_mean": 0.0004606879606879607,
+        "production_mean": 0.00042996222474739717,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Peru": {
+        "baseline_mean": 0.0010365479115479114,
+        "production_mean": 0.0009520592119406652,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Philippines": {
+        "baseline_mean": 0.00633445945945946,
+        "production_mean": 0.006080894321427475,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Poland": {
+        "baseline_mean": 0.0016891891891891893,
+        "production_mean": 0.0018426952489174165,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Portugal": {
+        "baseline_mean": 0.0011901105651105652,
+        "production_mean": 0.001136328736832407,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Puerto-Rico": {
+        "baseline_mean": 0.0032632063882063883,
+        "production_mean": 0.0035011209729430915,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Scotland": {
+        "baseline_mean": 0.0003839066339066339,
+        "production_mean": 0.0003685390497834833,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_South": {
+        "baseline_mean": 0.0024186117936117937,
+        "production_mean": 0.0024569269985565555,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Taiwan": {
+        "baseline_mean": 0.001574017199017199,
+        "production_mean": 0.001566290961579804,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Thailand": {
+        "baseline_mean": 0.000691031941031941,
+        "production_mean": 0.000552808574675225,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Trinadad&Tobago": {
+        "baseline_mean": 0.0004606879606879607,
+        "production_mean": 0.0005835201621571819,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_United-States": {
+        "baseline_mean": 0.895078316953317,
+        "production_mean": 0.895857006848684,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Vietnam": {
+        "baseline_mean": 0.0020347051597051596,
+        "production_mean": 0.002057676361291115,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "native.country_Yugoslavia": {
+        "baseline_mean": 0.0005758599508599509,
+        "production_mean": 0.000491385399711311,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    }
+}

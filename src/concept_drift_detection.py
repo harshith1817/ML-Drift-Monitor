@@ -18,7 +18,20 @@ def detect_concept_drift(x_new, y_new, model_path, baseline_metrics_path):
     
     drift_detected=new_accuracy < baseline_accuracy*0.9
     
+    result = {
+        "baseline_accuracy": baseline_accuracy,
+        "production_accuracy": float(new_accuracy),
+        "concept_drift_detected": drift_detected
+    }
+    
+    with open("reports/concept_drift.json", "w") as f:
+        json.dump(result, f, indent=4)
+    print("\nConcept drift report generated.")
+    
+    
     if drift_detected:
         print("\nConcept drift detected.")
     else:
         print("\nNo concept drift detected.")
+        
+    return result

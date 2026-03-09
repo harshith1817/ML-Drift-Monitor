@@ -1,0 +1,9 @@
+{
+    "ks_test": {
+        "ks_statistic": 0.09818494517981635,
+        "p_value": 0.0,
+        "drift_detected": true
+    },
+    "psi": 0.15023272499888454,
+    "prediction_drift_detected": true
+}
