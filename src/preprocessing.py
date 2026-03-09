@@ -24,7 +24,7 @@ def dynamic_preprocessor(path, target_col):
         if col != target_col:
             unique_ratio = churn_df[col].nunique() / len(churn_df)
             
-            if unique_ratio > 0.95:
+            if unique_ratio==1:
                 cols_to_drop.append(col)
         churn_df = churn_df.drop(columns=cols_to_drop)
     inputs = churn_df.drop(columns=[target_col])
@@ -58,5 +58,4 @@ def dynamic_preprocessor(path, target_col):
     encoded_all = pd.concat(encoded_dfs, axis=1)
     inputs = inputs.drop(columns=multiple_cols)
     inputs = pd.concat([inputs, encoded_all], axis=1)
-    print("Preprocesing is done!")
     return inputs, target

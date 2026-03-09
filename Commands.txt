@@ -1,1 +1,0 @@
-For converting jupyter notebook topy file: jupyter nbconvert --to script model.ipynb

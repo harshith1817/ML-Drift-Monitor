@@ -1,0 +1,402 @@
+{
+    "gender": {
+        "baseline_mean": 0.49315555555555557,
+        "production mean": 0.4953071672354949,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "SeniorCitizen": {
+        "baseline_mean": 0.1607111111111111,
+        "production mean": 0.16240045506257111,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "Partner": {
+        "baseline_mean": 0.48088888888888887,
+        "production mean": 0.4825085324232082,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "Dependents": {
+        "baseline_mean": 0.7006222222222223,
+        "production mean": 0.7015073947667805,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "tenure": {
+        "baseline_mean": 32.33528888888889,
+        "production mean": 37.94525028441411,
+        "ks_test": {
+            "ks_statistic": 0.13779863481228669,
+            "p_value": 1.349817567529397e-58,
+            "drift_detected": true
+        },
+        "psi": 0.30933672023843406
+    },
+    "PhoneService": {
+        "baseline_mean": 0.0976,
+        "production mean": 0.09670079635949944,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "PaperlessBilling": {
+        "baseline_mean": 0.5912888888888889,
+        "production mean": 0.5927189988623436,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "MonthlyCharges": {
+        "baseline_mean": 64.69743111111111,
+        "production mean": 75.27753128555176,
+        "ks_test": {
+            "ks_statistic": 0.17434584755403867,
+            "p_value": 1.0047472727385194e-93,
+            "drift_detected": true
+        },
+        "psi": 0.5582718672037571
+    },
+    "TotalCharges": {
+        "baseline_mean": 2275.300871111111,
+        "production mean": 2419.618340443686,
+        "ks_test": {
+            "ks_statistic": 0.10267349260523322,
+            "p_value": 1.1276207096190657e-32,
+            "drift_detected": true
+        },
+        "psi": 0.20044004465601317
+    },
+    "MultipleLines_No": {
+        "baseline_mean": 0.4855111111111111,
+        "production mean": 0.48137087599544937,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "MultipleLines_No phone service": {
+        "baseline_mean": 0.0976,
+        "production mean": 0.09670079635949944,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "MultipleLines_Yes": {
+        "baseline_mean": 0.41688888888888886,
+        "production mean": 0.42192832764505117,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "InternetService_DSL": {
+        "baseline_mean": 0.3413333333333333,
+        "production mean": 0.3435722411831627,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "InternetService_Fiber optic": {
+        "baseline_mean": 0.43946666666666667,
+        "production mean": 0.4402730375426621,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "InternetService_No": {
+        "baseline_mean": 0.2192,
+        "production mean": 0.2161547212741752,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "OnlineSecurity_No": {
+        "baseline_mean": 0.49333333333333335,
+        "production mean": 0.49729806598407283,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "OnlineSecurity_No internet service": {
+        "baseline_mean": 0.2192,
+        "production mean": 0.2161547212741752,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "OnlineSecurity_Yes": {
+        "baseline_mean": 0.28746666666666665,
+        "production mean": 0.286547212741752,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "OnlineBackup_No": {
+        "baseline_mean": 0.4343111111111111,
+        "production mean": 0.43899317406143346,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "OnlineBackup_No internet service": {
+        "baseline_mean": 0.2192,
+        "production mean": 0.2161547212741752,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "OnlineBackup_Yes": {
+        "baseline_mean": 0.3464888888888889,
+        "production mean": 0.34485210466439137,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "DeviceProtection_No": {
+        "baseline_mean": 0.43804444444444446,
+        "production mean": 0.4399886234357224,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "DeviceProtection_No internet service": {
+        "baseline_mean": 0.2192,
+        "production mean": 0.2161547212741752,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "DeviceProtection_Yes": {
+        "baseline_mean": 0.34275555555555554,
+        "production mean": 0.3438566552901024,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "TechSupport_No": {
+        "baseline_mean": 0.49102222222222225,
+        "production mean": 0.4937428896473265,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "TechSupport_No internet service": {
+        "baseline_mean": 0.2192,
+        "production mean": 0.2161547212741752,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "TechSupport_Yes": {
+        "baseline_mean": 0.2897777777777778,
+        "production mean": 0.2901023890784983,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "StreamingTV_No": {
+        "baseline_mean": 0.3950222222222222,
+        "production mean": 0.39945961319681456,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "StreamingTV_No internet service": {
+        "baseline_mean": 0.2192,
+        "production mean": 0.2161547212741752,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "StreamingTV_Yes": {
+        "baseline_mean": 0.3857777777777778,
+        "production mean": 0.3843856655290102,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "StreamingMovies_No": {
+        "baseline_mean": 0.3895111111111111,
+        "production mean": 0.39547781569965873,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "StreamingMovies_No internet service": {
+        "baseline_mean": 0.2192,
+        "production mean": 0.2161547212741752,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "StreamingMovies_Yes": {
+        "baseline_mean": 0.3912888888888889,
+        "production mean": 0.3883674630261661,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "Contract_Month-to-month": {
+        "baseline_mean": 0.5488,
+        "production mean": 0.551052332195677,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "Contract_One year": {
+        "baseline_mean": 0.21173333333333333,
+        "production mean": 0.20932878270762229,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "Contract_Two year": {
+        "baseline_mean": 0.23946666666666666,
+        "production mean": 0.2396188850967008,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "PaymentMethod_Bank transfer (automatic)": {
+        "baseline_mean": 0.21351111111111112,
+        "production mean": 0.21928327645051193,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "PaymentMethod_Credit card (automatic)": {
+        "baseline_mean": 0.21777777777777776,
+        "production mean": 0.21629692832764505,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "PaymentMethod_Electronic check": {
+        "baseline_mean": 0.33813333333333334,
+        "production mean": 0.3363196814562002,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "PaymentMethod_Mailed check": {
+        "baseline_mean": 0.23057777777777777,
+        "production mean": 0.22810011376564276,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    }
+}

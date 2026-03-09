@@ -13,7 +13,7 @@ def train_model(inputs,target):
     model=RandomForestClassifier(n_estimators=200, random_state=42)
     model.fit(inputs_train, target_train)
     accuracy=model.score(inputs_test, target_test)
-    print("Model trained")
+    print("Model trained.")
     print("Baseline Accuracy:", accuracy)
     joblib.dump(model, "models/model.pkl")
     return model, inputs_train, accuracy
