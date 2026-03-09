@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import joblib
+import json
 import os
 
 from sklearn.model_selection import train_test_split
@@ -12,8 +13,16 @@ def train_model(inputs,target):
     inputs_train, inputs_test, target_train, target_test=train_test_split(inputs, target, test_size=0.2, random_state=42)
     model=RandomForestClassifier(n_estimators=200, random_state=42)
     model.fit(inputs_train, target_train)
+    
     accuracy=model.score(inputs_test, target_test)
-    print("Model trained.")
-    print("Baseline Accuracy:", accuracy)
+    
     joblib.dump(model, "models/model.pkl")
+    print("\nModel trained and saved.")
+    
+    baseline_metrics={"baseline_accuracy": float(accuracy)}
+    
+    with open("reports/baseline_metrics.json","w") as f:
+        json.dump(baseline_metrics, f, indent=4)
+    print("\nBaseline Metrics report generated.")
+    
     return model, inputs_train, accuracy

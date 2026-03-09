@@ -37,19 +37,36 @@ import pandas as pd
 
 
 
-df=pd.read_csv("data/creditcard.csv")
+# df=pd.read_csv("data/creditcard.csv")
+# df_new=df.copy()
+
+# df_new["Time"] = df_new["Time"] + np.random.randint(1000, 10000, size=len(df_new))
+
+# pca_cols = [f"V{i}" for i in range(1,29)]
+# noise = np.random.normal(0, 0.2, size=(len(df_new), len(pca_cols)))
+
+# df_new[pca_cols] = df_new[pca_cols] + noise
+
+# scale = np.random.uniform(1.05, 1.3, size=len(df_new))
+# df_new["Amount"] = np.round(df_new["Amount"] * scale, 2)
+
+# df_new.to_csv("data/creditcard_new.csv", index=False)
+
+# print("Drift dataset created.")
+
+
+
+
+df=pd.read_csv("../data/bank_marketing.csv")
 df_new=df.copy()
 
-df_new["Time"] = df_new["Time"] + np.random.randint(1000, 10000, size=len(df_new))
+df_new["age"] = df_new["age"] + np.random.randint(-18, 50, size=len(df_new))
+df_new["balance"] = df_new["balance"] + np.random.randint(-20000, 50000, size=len(df_new))
+df_new["day"] = df_new["day"] + np.random.randint(100, 200, size=len(df_new))
+df_new["duration"] = df_new["duration"] + np.random.randint(10, 3000, size=len(df_new))
+df_new["pdays"] = df_new["pdays"] + np.random.randint(-100, 2000, size=len(df_new))
+df_new["previous"] = df_new["previous"] + np.random.randint(10, 30, size=len(df_new))
 
-pca_cols = [f"V{i}" for i in range(1,29)]
-noise = np.random.normal(0, 0.2, size=(len(df_new), len(pca_cols)))
-
-df_new[pca_cols] = df_new[pca_cols] + noise
-
-scale = np.random.uniform(1.05, 1.3, size=len(df_new))
-df_new["Amount"] = np.round(df_new["Amount"] * scale, 2)
-
-df_new.to_csv("data/creditcard_new.csv", index=False)
+df_new.to_csv("../data/bank_marketing_new.csv", index=False)
 
 print("Drift dataset created.")

@@ -1,57 +1,17 @@
 {
-    "gender": {
-        "baseline_mean": 0.49315555555555557,
-        "production mean": 0.4953071672354949,
+    "age": {
+        "baseline_mean": 41.24235636689439,
+        "production mean": 56.737323060383446,
         "ks_test": {
-            "ks_statistic": 0.0,
-            "p_value": 1.0,
-            "drift_detected": false
-        },
-        "psi": 0.0
-    },
-    "SeniorCitizen": {
-        "baseline_mean": 0.1607111111111111,
-        "production mean": 0.16240045506257111,
-        "ks_test": {
-            "ks_statistic": 0.0,
-            "p_value": 1.0,
-            "drift_detected": false
-        },
-        "psi": 0.0
-    },
-    "Partner": {
-        "baseline_mean": 0.48088888888888887,
-        "production mean": 0.4825085324232082,
-        "ks_test": {
-            "ks_statistic": 0.0,
-            "p_value": 1.0,
-            "drift_detected": false
-        },
-        "psi": 0.0
-    },
-    "Dependents": {
-        "baseline_mean": 0.7006222222222223,
-        "production mean": 0.7015073947667805,
-        "ks_test": {
-            "ks_statistic": 0.0,
-            "p_value": 1.0,
-            "drift_detected": false
-        },
-        "psi": 0.0
-    },
-    "tenure": {
-        "baseline_mean": 32.33528888888889,
-        "production mean": 37.94525028441411,
-        "ks_test": {
-            "ks_statistic": 0.13779863481228669,
-            "p_value": 1.349817567529397e-58,
+            "ks_statistic": 0.3915068984053037,
+            "p_value": 0.0,
             "drift_detected": true
         },
-        "psi": 0.30933672023843406
+        "psi": 0.9100338808082966
     },
-    "PhoneService": {
-        "baseline_mean": 0.0976,
-        "production mean": 0.09670079635949944,
+    "default": {
+        "baseline_mean": 0.9851047149736812,
+        "production mean": 0.9849489338828167,
         "ks_test": {
             "ks_statistic": 0.0,
             "p_value": 1.0,
@@ -59,39 +19,59 @@
         },
         "psi": 0.0
     },
-    "PaperlessBilling": {
-        "baseline_mean": 0.5912888888888889,
-        "production mean": 0.5927189988623436,
+    "balance": {
+        "baseline_mean": 1520.5063276962705,
+        "production mean": 16589.09801110912,
         "ks_test": {
-            "ks_statistic": 0.0,
-            "p_value": 1.0,
-            "drift_detected": false
-        },
-        "psi": 0.0
-    },
-    "MonthlyCharges": {
-        "baseline_mean": 64.69743111111111,
-        "production mean": 75.27753128555176,
-        "ks_test": {
-            "ks_statistic": 0.17434584755403867,
-            "p_value": 1.0047472727385194e-93,
+            "ks_statistic": 0.6001612614226841,
+            "p_value": 0.0,
             "drift_detected": true
         },
-        "psi": 0.5582718672037571
+        "psi": 3.8373690097158812
     },
-    "TotalCharges": {
-        "baseline_mean": 2275.300871111111,
-        "production mean": 2419.618340443686,
+    "housing": {
+        "baseline_mean": 0.4710493896292978,
+        "production mean": 0.47312309621931553,
         "ks_test": {
-            "ks_statistic": 0.10267349260523322,
-            "p_value": 1.1276207096190657e-32,
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "loan": {
+        "baseline_mean": 0.8670623810057118,
+        "production mean": 0.8691990682673356,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "day": {
+        "baseline_mean": 15.62996976145145,
+        "production mean": 165.2250492743236,
+        "ks_test": {
+            "ks_statistic": 1.0,
+            "p_value": 0.0,
             "drift_detected": true
         },
-        "psi": 0.20044004465601317
+        "psi": 6.9248952256780285
     },
-    "MultipleLines_No": {
-        "baseline_mean": 0.4855111111111111,
-        "production mean": 0.48137087599544937,
+    "duration": {
+        "baseline_mean": 370.22454922163735,
+        "production mean": 1869.9455294750044,
+        "ks_test": {
+            "ks_statistic": 0.7380397778175953,
+            "p_value": 0.0,
+            "drift_detected": true
+        },
+        "psi": 3.594454888477329
+    },
+    "campaign": {
+        "baseline_mean": 2.506439690894837,
+        "production mean": 2.508421429851281,
         "ks_test": {
             "ks_statistic": 0.0,
             "p_value": 1.0,
@@ -99,9 +79,29 @@
         },
         "psi": 0.0
     },
-    "MultipleLines_No phone service": {
-        "baseline_mean": 0.0976,
-        "production mean": 0.09670079635949944,
+    "pdays": {
+        "baseline_mean": 50.73255683727181,
+        "production mean": 996.809442752195,
+        "ks_test": {
+            "ks_statistic": 0.7798781580361942,
+            "p_value": 0.0,
+            "drift_detected": true
+        },
+        "psi": 2.5600752873179142
+    },
+    "previous": {
+        "baseline_mean": 0.81128905812521,
+        "production mean": 20.383533416950367,
+        "ks_test": {
+            "ks_statistic": 0.9887117004121125,
+            "p_value": 0.0,
+            "drift_detected": true
+        },
+        "psi": 9.61101583303538
+    },
+    "job_admin.": {
+        "baseline_mean": 0.11860230708925971,
+        "production mean": 0.11951263214477692,
         "ks_test": {
             "ks_statistic": 0.0,
             "p_value": 1.0,
@@ -109,9 +109,9 @@
         },
         "psi": 0.0
     },
-    "MultipleLines_Yes": {
-        "baseline_mean": 0.41688888888888886,
-        "production mean": 0.42192832764505117,
+    "job_blue-collar": {
+        "baseline_mean": 0.17392765147272932,
+        "production mean": 0.17416233649883534,
         "ks_test": {
             "ks_statistic": 0.0,
             "p_value": 1.0,
@@ -119,9 +119,9 @@
         },
         "psi": 0.0
     },
-    "InternetService_DSL": {
-        "baseline_mean": 0.3413333333333333,
-        "production mean": 0.3435722411831627,
+    "job_entrepreneur": {
+        "baseline_mean": 0.027886661440250867,
+        "production mean": 0.029385414800215014,
         "ks_test": {
             "ks_statistic": 0.0,
             "p_value": 1.0,
@@ -129,9 +129,9 @@
         },
         "psi": 0.0
     },
-    "InternetService_Fiber optic": {
-        "baseline_mean": 0.43946666666666667,
-        "production mean": 0.4402730375426621,
+    "job_housemaid": {
+        "baseline_mean": 0.02497480120954194,
+        "production mean": 0.024547572119691812,
         "ks_test": {
             "ks_statistic": 0.0,
             "p_value": 1.0,
@@ -139,9 +139,9 @@
         },
         "psi": 0.0
     },
-    "InternetService_No": {
-        "baseline_mean": 0.2192,
-        "production mean": 0.2161547212741752,
+    "job_management": {
+        "baseline_mean": 0.23283682383245605,
+        "production mean": 0.22988711700412112,
         "ks_test": {
             "ks_statistic": 0.0,
             "p_value": 1.0,
@@ -149,9 +149,9 @@
         },
         "psi": 0.0
     },
-    "OnlineSecurity_No": {
-        "baseline_mean": 0.49333333333333335,
-        "production mean": 0.49729806598407283,
+    "job_retired": {
+        "baseline_mean": 0.07022062940978833,
+        "production mean": 0.06970077047124171,
         "ks_test": {
             "ks_statistic": 0.0,
             "p_value": 1.0,
@@ -159,9 +159,9 @@
         },
         "psi": 0.0
     },
-    "OnlineSecurity_No internet service": {
-        "baseline_mean": 0.2192,
-        "production mean": 0.2161547212741752,
+    "job_self-employed": {
+        "baseline_mean": 0.03751819912644193,
+        "production mean": 0.03628382010392403,
         "ks_test": {
             "ks_statistic": 0.0,
             "p_value": 1.0,
@@ -169,9 +169,9 @@
         },
         "psi": 0.0
     },
-    "OnlineSecurity_Yes": {
-        "baseline_mean": 0.28746666666666665,
-        "production mean": 0.286547212741752,
+    "job_services": {
+        "baseline_mean": 0.0829880165752044,
+        "production mean": 0.0826912739652392,
         "ks_test": {
             "ks_statistic": 0.0,
             "p_value": 1.0,
@@ -179,9 +179,9 @@
         },
         "psi": 0.0
     },
-    "OnlineBackup_No": {
-        "baseline_mean": 0.4343111111111111,
-        "production mean": 0.43899317406143346,
+    "job_student": {
+        "baseline_mean": 0.03191846791354015,
+        "production mean": 0.03225228453682136,
         "ks_test": {
             "ks_statistic": 0.0,
             "p_value": 1.0,
@@ -189,9 +189,9 @@
         },
         "psi": 0.0
     },
-    "OnlineBackup_No internet service": {
-        "baseline_mean": 0.2192,
-        "production mean": 0.2161547212741752,
+    "job_technician": {
+        "baseline_mean": 0.1612722589315713,
+        "production mean": 0.1633219853072926,
         "ks_test": {
             "ks_statistic": 0.0,
             "p_value": 1.0,
@@ -199,9 +199,9 @@
         },
         "psi": 0.0
     },
-    "OnlineBackup_Yes": {
-        "baseline_mean": 0.3464888888888889,
-        "production mean": 0.34485210466439137,
+    "job_unemployed": {
+        "baseline_mean": 0.031582484040766044,
+        "production mean": 0.031983515499014514,
         "ks_test": {
             "ks_statistic": 0.0,
             "p_value": 1.0,
@@ -209,9 +209,9 @@
         },
         "psi": 0.0
     },
-    "DeviceProtection_No": {
-        "baseline_mean": 0.43804444444444446,
-        "production mean": 0.4399886234357224,
+    "job_unknown": {
+        "baseline_mean": 0.006271698958449995,
+        "production mean": 0.006271277548826375,
         "ks_test": {
             "ks_statistic": 0.0,
             "p_value": 1.0,
@@ -219,9 +219,9 @@
         },
         "psi": 0.0
     },
-    "DeviceProtection_No internet service": {
-        "baseline_mean": 0.2192,
-        "production mean": 0.2161547212741752,
+    "marital_divorced": {
+        "baseline_mean": 0.11457050061597043,
+        "production mean": 0.11583945529475005,
         "ks_test": {
             "ks_statistic": 0.0,
             "p_value": 1.0,
@@ -229,9 +229,9 @@
         },
         "psi": 0.0
     },
-    "DeviceProtection_Yes": {
-        "baseline_mean": 0.34275555555555554,
-        "production mean": 0.3438566552901024,
+    "marital_married": {
+        "baseline_mean": 0.5689326912308209,
+        "production mean": 0.5689840530370901,
         "ks_test": {
             "ks_statistic": 0.0,
             "p_value": 1.0,
@@ -239,9 +239,9 @@
         },
         "psi": 0.0
     },
-    "TechSupport_No": {
-        "baseline_mean": 0.49102222222222225,
-        "production mean": 0.4937428896473265,
+    "marital_single": {
+        "baseline_mean": 0.31649680815320863,
+        "production mean": 0.3151764916681598,
         "ks_test": {
             "ks_statistic": 0.0,
             "p_value": 1.0,
@@ -249,9 +249,9 @@
         },
         "psi": 0.0
     },
-    "TechSupport_No internet service": {
-        "baseline_mean": 0.2192,
-        "production mean": 0.2161547212741752,
+    "education_primary": {
+        "baseline_mean": 0.13461753835815882,
+        "production mean": 0.13438451890342232,
         "ks_test": {
             "ks_statistic": 0.0,
             "p_value": 1.0,
@@ -259,9 +259,9 @@
         },
         "psi": 0.0
     },
-    "TechSupport_Yes": {
-        "baseline_mean": 0.2897777777777778,
-        "production mean": 0.2901023890784983,
+    "education_secondary": {
+        "baseline_mean": 0.48852055101355135,
+        "production mean": 0.4905930836767604,
         "ks_test": {
             "ks_statistic": 0.0,
             "p_value": 1.0,
@@ -269,9 +269,9 @@
         },
         "psi": 0.0
     },
-    "StreamingTV_No": {
-        "baseline_mean": 0.3950222222222222,
-        "production mean": 0.39945961319681456,
+    "education_tertiary": {
+        "baseline_mean": 0.33374398028894614,
+        "production mean": 0.33049632682315,
         "ks_test": {
             "ks_statistic": 0.0,
             "p_value": 1.0,
@@ -279,9 +279,9 @@
         },
         "psi": 0.0
     },
-    "StreamingTV_No internet service": {
-        "baseline_mean": 0.2192,
-        "production mean": 0.2161547212741752,
+    "education_unknown": {
+        "baseline_mean": 0.04311793033934371,
+        "production mean": 0.044526070596667265,
         "ks_test": {
             "ks_statistic": 0.0,
             "p_value": 1.0,
@@ -289,9 +289,9 @@
         },
         "psi": 0.0
     },
-    "StreamingTV_Yes": {
-        "baseline_mean": 0.3857777777777778,
-        "production mean": 0.3843856655290102,
+    "contact_cellular": {
+        "baseline_mean": 0.7238212565796842,
+        "production mean": 0.7204802006808816,
         "ks_test": {
             "ks_statistic": 0.0,
             "p_value": 1.0,
@@ -299,9 +299,9 @@
         },
         "psi": 0.0
     },
-    "StreamingMovies_No": {
-        "baseline_mean": 0.3895111111111111,
-        "production mean": 0.39547781569965873,
+    "contact_telephone": {
+        "baseline_mean": 0.06842871542165976,
+        "production mean": 0.06934241175416592,
         "ks_test": {
             "ks_statistic": 0.0,
             "p_value": 1.0,
@@ -309,9 +309,9 @@
         },
         "psi": 0.0
     },
-    "StreamingMovies_No internet service": {
-        "baseline_mean": 0.2192,
-        "production mean": 0.2161547212741752,
+    "contact_unknown": {
+        "baseline_mean": 0.20775002799865608,
+        "production mean": 0.21017738756495252,
         "ks_test": {
             "ks_statistic": 0.0,
             "p_value": 1.0,
@@ -319,9 +319,9 @@
         },
         "psi": 0.0
     },
-    "StreamingMovies_Yes": {
-        "baseline_mean": 0.3912888888888889,
-        "production mean": 0.3883674630261661,
+    "month_apr": {
+        "baseline_mean": 0.08130809721133385,
+        "production mean": 0.0826912739652392,
         "ks_test": {
             "ks_statistic": 0.0,
             "p_value": 1.0,
@@ -329,9 +329,9 @@
         },
         "psi": 0.0
     },
-    "Contract_Month-to-month": {
-        "baseline_mean": 0.5488,
-        "production mean": 0.551052332195677,
+    "month_aug": {
+        "baseline_mean": 0.1355134953522231,
+        "production mean": 0.13608672280953235,
         "ks_test": {
             "ks_statistic": 0.0,
             "p_value": 1.0,
@@ -339,9 +339,9 @@
         },
         "psi": 0.0
     },
-    "Contract_One year": {
-        "baseline_mean": 0.21173333333333333,
-        "production mean": 0.20932878270762229,
+    "month_dec": {
+        "baseline_mean": 0.008511591443610706,
+        "production mean": 0.009854864719584303,
         "ks_test": {
             "ks_statistic": 0.0,
             "p_value": 1.0,
@@ -349,9 +349,9 @@
         },
         "psi": 0.0
     },
-    "Contract_Two year": {
-        "baseline_mean": 0.23946666666666666,
-        "production mean": 0.2396188850967008,
+    "month_feb": {
+        "baseline_mean": 0.07033262403404636,
+        "production mean": 0.06952159111270381,
         "ks_test": {
             "ks_statistic": 0.0,
             "p_value": 1.0,
@@ -359,9 +359,9 @@
         },
         "psi": 0.0
     },
-    "PaymentMethod_Bank transfer (automatic)": {
-        "baseline_mean": 0.21351111111111112,
-        "production mean": 0.21928327645051193,
+    "month_jan": {
+        "baseline_mean": 0.028558629185799083,
+        "production mean": 0.030818849668518188,
         "ks_test": {
             "ks_statistic": 0.0,
             "p_value": 1.0,
@@ -369,9 +369,9 @@
         },
         "psi": 0.0
     },
-    "PaymentMethod_Credit card (automatic)": {
-        "baseline_mean": 0.21777777777777776,
-        "production mean": 0.21629692832764505,
+    "month_jul": {
+        "baseline_mean": 0.13685743084331953,
+        "production mean": 0.1356387744131876,
         "ks_test": {
             "ks_statistic": 0.0,
             "p_value": 1.0,
@@ -379,9 +379,9 @@
         },
         "psi": 0.0
     },
-    "PaymentMethod_Electronic check": {
-        "baseline_mean": 0.33813333333333334,
-        "production mean": 0.3363196814562002,
+    "month_jun": {
+        "baseline_mean": 0.10930675327584276,
+        "production mean": 0.10947858806665473,
         "ks_test": {
             "ks_statistic": 0.0,
             "p_value": 1.0,
@@ -389,9 +389,89 @@
         },
         "psi": 0.0
     },
-    "PaymentMethod_Mailed check": {
-        "baseline_mean": 0.23057777777777777,
-        "production mean": 0.22810011376564276,
+    "month_mar": {
+        "baseline_mean": 0.02531078508231605,
+        "production mean": 0.024726751478229708,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "month_may": {
+        "baseline_mean": 0.2525478777018703,
+        "production mean": 0.2530012542555098,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "month_nov": {
+        "baseline_mean": 0.0867958337999776,
+        "production mean": 0.08448306755061817,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "month_oct": {
+        "baseline_mean": 0.035614290514055326,
+        "production mean": 0.035119154273427704,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "month_sep": {
+        "baseline_mean": 0.02934259155560533,
+        "production mean": 0.028579107686794482,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "poutcome_failure": {
+        "baseline_mean": 0.1090827640273267,
+        "production mean": 0.11001612614226841,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "poutcome_other": {
+        "baseline_mean": 0.046701758315600854,
+        "production mean": 0.04810965776742519,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "poutcome_success": {
+        "baseline_mean": 0.09508343599507224,
+        "production mean": 0.09595054649704354,
+        "ks_test": {
+            "ks_statistic": 0.0,
+            "p_value": 1.0,
+            "drift_detected": false
+        },
+        "psi": 0.0
+    },
+    "poutcome_unknown": {
+        "baseline_mean": 0.7491320416620002,
+        "production mean": 0.7459236695932628,
         "ks_test": {
             "ks_statistic": 0.0,
             "p_value": 1.0,

@@ -1,5 +1,8 @@
 import pandas as pd
 from sklearn.preprocessing import OneHotEncoder
+import warnings
+warnings.filterwarnings("ignore", category=FutureWarning)
+
 def dynamic_preprocessor(path, target_col):
     churn_df=pd.read_csv(path)
     churn_df = churn_df.apply(lambda x: x.str.strip() if x.dtype == "object" else x)
@@ -55,7 +58,9 @@ def dynamic_preprocessor(path, target_col):
             index=inputs.index
         )
         encoded_dfs.append(encoded_df)
-    encoded_all = pd.concat(encoded_dfs, axis=1)
-    inputs = inputs.drop(columns=multiple_cols)
-    inputs = pd.concat([inputs, encoded_all], axis=1)
+    
+    if len(encoded_dfs)>0:
+        encoded_all = pd.concat(encoded_dfs, axis=1)
+        inputs = inputs.drop(columns=multiple_cols)
+        inputs = pd.concat([inputs, encoded_all], axis=1)
     return inputs, target

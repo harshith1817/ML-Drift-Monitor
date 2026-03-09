@@ -8,7 +8,7 @@ def load_baseline(path):
     return baseline
 
 
-def detect_drift(old_df, new_df, baseline_report_path):
+def generate_data_drift_report(old_df, new_df, baseline_report_path):
     
     # old_df=pd.read_csv(old_path)
     # new_df=pd.read_csv(new_path)
@@ -39,4 +39,4 @@ def detect_drift(old_df, new_df, baseline_report_path):
         
     with open("reports/drift_report.json","w") as f:
         json.dump(report, f, indent=4)
-    print("Drift detection report generated.")
+    print("\nData drift report generated.")

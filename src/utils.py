@@ -12,4 +12,4 @@ def save_baseline_stats(train_inputs):
         
     with open("reports/baseline_stats.json","w") as f:
         json.dump(stats, f, indent=4)
-    print("Baseline stats report generated.")
+    print("\nBaseline stats report generated.")
