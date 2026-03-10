@@ -6,13 +6,13 @@ st.set_page_config(page_title="ML Drift Monitor", layout="wide")
 
 st.title("ML Drift Monitoring Dashboard")
 
-with open("../reports/data_drift.json") as f:
+with open("reports/data_drift.json") as f:
     feature_report=json.load(f)
     
-with open("../reports/prediction_drift.json") as f:
+with open("reports/prediction_drift.json") as f:
     prediction_report=json.load(f)
 
-with open("../reports/concept_drift.json") as f:
+with open("reports/concept_drift.json") as f:
     concept_report=json.load(f)
 
 st.header("Feature Drift")
